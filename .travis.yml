@@ -6,7 +6,7 @@ android:
                 - android-21
                 - extra-android-m2repository
 script:
-        - ./gradlew build
+        - ./Wilenco_App/gradlew build
 before_install:
         - chmod +x Wilenco_App/gradlew
 branches:
