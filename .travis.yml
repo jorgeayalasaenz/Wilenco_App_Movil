@@ -2,13 +2,13 @@ language: android
 android:
         components:
                 - platform-tools
-                - build-tools-23.0.1
-                - android-23
+                - build-tools-21.0.1
+                - android-21
                 - extra-android-m2repository
 script:
         - ./gradlew build
 before_install:
-        - chmod +x gradlew
+        - chmod +x Wilenco_App/gradlew
 branches:
         only:
                 - master
