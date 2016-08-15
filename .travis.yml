@@ -9,7 +9,7 @@ script:
         - ./Wilenco_App/gradlew build
         - java Wilenco_App\app\src\test\java\com\example\kattyadesiderio\wilencoapp\ExampleUnitTest.java
 before_install:
-        - chmod +x Wilenco_App/gradlew connectedCheck
+        - chmod +x Wilenco_App/gradlew
 branches:
         only:
                 - master
