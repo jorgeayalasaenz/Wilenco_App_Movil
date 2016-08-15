@@ -8,7 +8,7 @@ android:
 script:
         - ./Wilenco_App/gradlew build
 before_install:
-        - chmod +x Wilenco_App/gradlew
+        - chmod +x Wilenco_App/gradlew connectedCheck
 branches:
         only:
                 - master
